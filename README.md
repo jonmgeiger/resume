@@ -14,6 +14,8 @@ This is where all of the individual components of the resume are put together. T
 
 The resume has five main sections, as well as a title for the top of the page. Four out of five of these sections have modular components, where I didn't see a need to make the **Education** section modular due to it having only one component. 
 
+`geiger_resume.pdf` is the output of `geiger_resume.tex`.
+
 ### `/experience` directory 
 
 Relevant work experience can be mostly unique to a specific job. Because of this, I've started to create two different listings for each work experience, in the `experience/brief` and `experience/full` folders. The `full` descriptions of each job are for use in the Relevant Experience section of the resume, whereas the `brief` descriptions fit nicely at the bottom in the Additional Experience section.  
