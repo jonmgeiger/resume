@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\input{setup.tex}
+
+
+
+\setlength{\tabcolsep}{0.1in} % padding between columns = 0.2in
+
+
+\begin{document}
+\setlength{\parskip}{0pt}
+\maketitle
+
+% Set the spacing to fill the page once finished
+\setstretch{1.0}
+
+
+
+\section{Technical Skills}
+    \begin{flushleft}
+        \begin{tabular}{>{\raggedleft\arraybackslash}p{1.2in} >{\raggedright\arraybackslash}p{5.9in}}
+            \input{skills/tech/data_skills.tex} \\
+            \input{skills/tech/r_programming.tex} \\
+            \input{skills/tech/python.tex} \\
+            \input{skills/tech/other_software.tex} \\
+            \input{skills/tech/other_skills.tex}
+        \end{tabular}
+    \end{flushleft}
+
+
+
+\section{General Skills}
+
+    \begin{flushleft}
+        \begin{tabular}{>{\raggedleft\arraybackslash}p{1.2in} >{\raggedright\arraybackslash}p{5.9in}}
+            \input{skills/gen/growth_mindset.tex} \\
+            \input{skills/gen/communication.tex} \\
+            \input{skills/gen/teamwork.tex}
+        \end{tabular}
+    \end{flushleft}
+
+
+
+\section{Education}
+
+    \textbf{Bachelor of Science, Applied Mathematics \& Physics} \hfill \textbf{Expected Jun 2022}\\
+    \textbf{Bachelor of Arts, Honors Liberal Arts} \hfill \textbf{Expected Jun 2022}\\
+    Seattle Pacific University | Seattle, WA 
+        \squish
+        \begin{itemize} \setlength\itemsep{-2pt}
+            \item Minor in Data Analytics, 3.89 Cumulative GPA
+            \item 
+            \textbf{Relevant Coursework:} Probability and Statistics, Statistical Modeling, Mathematical Statistics, Introduction to Data Science, Data Analysis in Python, Calculus I-III, Vector Calculus, Linear Algebra, Differential Equations
+        \end{itemize}
+
+
+
+\section{Related Experience}
+
+    \input{experience/full/SPU_mathintern.tex}
+    \input{experience/full/SPU_mathLA.tex}
+    \input{experience/full/OSI_intern.tex}
+        
+
+
+\section{Additional Experience}
+
+    \begin{flushleft}
+        \begin{tabularx}{\textwidth}{l l R}
+            \input{experience/brief/SPU_physicsLA.tex}          \\
+            \input{experience/brief/STEM_tutor.tex}             \\
+            \input{experience/brief/SPU_physicsresearcher.tex}  \\
+            \input{experience/brief/SPU_orientation.tex}        \\
+            \input{experience/brief/SPU_RA.tex}                 \\
+            \input{experience/brief/JOURNEY_avtech.tex}         \\
+        \end{tabularx}
+    \end{flushleft}
+
+
+
+\end{document}
